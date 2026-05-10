@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnRequestStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Запросить статус"
+        android:layout_marginBottom="16dp"
+        android:textSize="16sp"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/btnSetTemperature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Установить требуемую температуру"
+        android:layout_marginBottom="16dp"
+        android:textSize="16sp"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/btnRequestBalance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Запросить баланс"
+        android:layout_marginBottom="16dp"
+        android:textSize="16sp"
+        android:padding="12dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CCCCCC"
+        android:layout_marginVertical="16dp" />
+
+    <Button
+        android:id="@+id/btnDeleteOldMessages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Удалить старые сообщения"
+        android:textSize="16sp"
+        android:padding="12dp" />
+</LinearLayout>
